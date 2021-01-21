@@ -1,0 +1,63 @@
+:root{
+    --primary-color:#ffa263;
+    --secondary-color:#3f3d56;
+}
+
+.blogsHead img{
+    max-width: 30%;
+    display: block;
+    margin-left: 35%;
+}
+.blogsHead h1{
+    
+    text-align: center;
+
+}
+.off{
+    margin-bottom: 2em;
+}
+.articleIntro img{
+    max-width: 50%;
+    display: block;
+    margin-left: 20%;
+
+}
+.articleIntro p{
+    font-size: 1.7em;
+}
+.codeExample{
+    display:inline;
+    text-align: center;
+}
+p{
+font-size: 1em;
+margin-bottom: 1em;
+}
+#output{
+    font-size: 1.6em;
+    margin-left: 48%;
+
+}
+.codeExample span{
+    font-size: large;
+    text-align: center;
+}
+footer{
+    
+    background-color: var(--primary-color);
+    padding: 1rem 1rem;
+    text-align: center;
+    color: white;
+    border-top: 2px var(--secondary-color)solid;
+}
+.footerHeader{
+    display: inline;
+    font-size: 1.8em;
+    color:var(--secondary-color);
+
+}
+.footer a {
+    text-decoration: none;
+    font-size: large;
+    color:var(--secondary-color)
+}
