@@ -8,10 +8,14 @@
     display: block;
     margin-left: 35%;
 }
-.blogsHead h1{
-    
-    text-align: center;
 
+.heading h1{
+    font-size: 5em;
+}
+.para{
+    width:70%;
+    font-size: 1.2em;
+    margin-left: 10%;
 }
 .off{
     margin-bottom: 2em;
