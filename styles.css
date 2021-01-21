@@ -1,0 +1,124 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+:root{
+    --primary-color:#ffa263;
+    --secondary-color:#3f3d56;
+}
+
+.navigation-container{
+    width:39.2%;
+  background-color:var(--primary-color);  
+    position: absolute;
+    right: 0;
+ border:1.99px var(--secondary-color) solid;
+}
+.navPills li {
+    display: inline;
+
+    margin:1em;
+}
+.navPills {
+    text-align: right;
+    margin:1em;
+    padding:1em;
+
+
+
+}
+.navPills li a {
+color:var(--secondary-color)  ;  text-decoration: none;
+    font-size: 1.7em;
+
+}
+.navBrand {
+    padding-top: 2em;
+}
+header img{
+    max-width: 60%;
+    display: block;
+}
+header h1{
+    text-align: center;
+    padding-top: 1rem;
+    color: var(--secondary-color);
+}
+.centerContainer{
+    padding: 2em;
+    max-width: 700px;
+    margin: auto;
+    border:2px var(--secondary-color)solid;
+    
+}
+section h1 {
+    text-align: center;
+    margin-bottom: 1em;
+}
+.centerContainer p{
+    font-size: 1.2em;
+}
+.tech-section{
+    padding: 5em;
+}
+
+tech-section h1 {
+    font-size: 2em;
+}
+.link{
+    box-sizing: border-box;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    font-size: large;
+    color:var(--secondary-color)
+}
+.off{
+    margin-bottom: 2em;
+}
+.link-primary{
+    background-color: var(--primary-color);
+    border-radius: 0.5rem;
+    display: block;
+    max-width: 140px;
+    margin: 1rem 1rem 1rem 0rem;
+}
+.link-secondary{
+    color: var(--secondary-color);
+    border-radius: 0.5rem;
+    border: 1px solid var(--primary-color);
+    display: block;
+    
+    max-width: 140px;
+    margin: 1rem 1rem 1rem 0rem;
+}
+.project-list{
+    text-align: center;
+}
+.project-list a{
+    text-align: center;
+
+}
+article h1 {
+    margin:10px;
+}
+footer{
+    
+    background-color: var(--primary-color);
+    padding: 1rem 1rem;
+    text-align: center;
+    color: white;
+    border-top: 2px var(--secondary-color)solid;
+}
+.footerHeader{
+    display: inline;
+    font-size: 1.8em;
+    color:var(--secondary-color);
+
+}
+.footer a {
+    text-decoration: none;
+    font-size: large;
+    color:var(--secondary-color)
+}
